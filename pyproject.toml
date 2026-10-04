@@ -1,0 +1,22 @@
+[project]
+name = "jev-harness"
+version = "0.1.0"
+description = "Jev task routing for existing Oh My Pi agent roles"
+requires-python = ">=3.11"
+dependencies = ["typesafe-sdk>=0.2", "pyyaml>=6"]
+
+[project.scripts]
+jev-harness = "jev_harness.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.13"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+script_path="$(readlink -f -- "${BASH_SOURCE[0]}")"
+project_dir="$(cd -- "$(dirname -- "$script_path")/.." && pwd)"
+if [[ -z "${TYPESAFE_API_KEY:-}${JEV_API_KEY:-}" && -f "$project_dir/.env" ]]; then
+    exec uv run --frozen --project "$project_dir" --env-file "$project_dir/.env" jev-harness "$@"
+fi
+exec uv run --frozen --project "$project_dir" jev-harness "$@"

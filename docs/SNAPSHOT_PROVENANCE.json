@@ -1,0 +1,103 @@
+{
+  "snapshot_date": "2026-10-03",
+  "source_project": "jev-harness",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "81deca8133e2e784facd297c6e462e9f13512e2bcc1d07a7067dd6302881b95e",
+      "bytes": 39,
+      "original_sha256": "81deca8133e2e784facd297c6e462e9f13512e2bcc1d07a7067dd6302881b95e",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2cdb30103d59dceab5ca49fe70ee7c2cbc5dd7b531d86933aaca0b6e4f6ed98c",
+      "bytes": 107,
+      "original_sha256": "2cdb30103d59dceab5ca49fe70ee7c2cbc5dd7b531d86933aaca0b6e4f6ed98c",
+      "unchanged": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "0a9e117c8838055b24e7691baf2b4ad31f87f98decef407ac070445672d6f758",
+      "bytes": 4836,
+      "original_sha256": "2655d979101cfe7f46f398fbe1b74ea120d97c8d496a9f262dfa3f91a90b92f9",
+      "unchanged": false
+    },
+    {
+      "path": "bin/jev-harness",
+      "sha256": "55f494d59cd7d3efd668299b186ffbc07028ef2ad23a654c3cbcfbe6f06035de",
+      "bytes": 402,
+      "original_sha256": "55f494d59cd7d3efd668299b186ffbc07028ef2ad23a654c3cbcfbe6f06035de",
+      "unchanged": true
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "26d50c5abd13218d7806a6e3df35cf9b5ce42b82cfecf5af9cf565b4ee8d4cf1",
+      "bytes": 1238,
+      "origin": "publication preparation or documented preview"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "49a44739031d4b24f4df2e3c6a81fe419feac448bbe93480eabb9dc75880452e",
+      "bytes": 472,
+      "original_sha256": "49a44739031d4b24f4df2e3c6a81fe419feac448bbe93480eabb9dc75880452e",
+      "unchanged": true
+    },
+    {
+      "path": "src/jev_harness/__init__.py",
+      "sha256": "579b6b145c735b67d2b5c56226a302f5e43f9a59a4d287707f9a9a312efa6695",
+      "bytes": 37,
+      "original_sha256": "579b6b145c735b67d2b5c56226a302f5e43f9a59a4d287707f9a9a312efa6695",
+      "unchanged": true
+    },
+    {
+      "path": "src/jev_harness/cli.py",
+      "sha256": "276bbb0abd452c0ff6577bd8a99da587486a618d4563a4be2eb951b16e540857",
+      "bytes": 4484,
+      "original_sha256": "276bbb0abd452c0ff6577bd8a99da587486a618d4563a4be2eb951b16e540857",
+      "unchanged": true
+    },
+    {
+      "path": "src/jev_harness/dispatch.py",
+      "sha256": "d044297504f339f74c896e3f05360589f8a41d055fe3bc9e70b291c79035d651",
+      "bytes": 1746,
+      "original_sha256": "d044297504f339f74c896e3f05360589f8a41d055fe3bc9e70b291c79035d651",
+      "unchanged": true
+    },
+    {
+      "path": "src/jev_harness/router.py",
+      "sha256": "64c3cee0ce13eea4835fbb426d34527477e4811c9983a8dfc7594c5cc26bf0f8",
+      "bytes": 10488,
+      "original_sha256": "64c3cee0ce13eea4835fbb426d34527477e4811c9983a8dfc7594c5cc26bf0f8",
+      "unchanged": true
+    },
+    {
+      "path": "src/jev_harness/router.toml",
+      "sha256": "353838aa5321795c13a3970549364eeb1dfc896c03d8c6d1a3606b2aa3d1ee36",
+      "bytes": 964,
+      "original_sha256": "353838aa5321795c13a3970549364eeb1dfc896c03d8c6d1a3606b2aa3d1ee36",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_harness.py",
+      "sha256": "72d15664e1b411a0a4ebd89262f4afcea63d0aa0e99fb50d0e5823af92ee09d2",
+      "bytes": 10103,
+      "original_sha256": "72d15664e1b411a0a4ebd89262f4afcea63d0aa0e99fb50d0e5823af92ee09d2",
+      "unchanged": true
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "cb02f3f1d1f4f4f3b2f3fee5e2fffb9381832addd04f22da5aca7f9435899153",
+      "bytes": 67098,
+      "original_sha256": "cb02f3f1d1f4f4f3b2f3fee5e2fffb9381832addd04f22da5aca7f9435899153",
+      "unchanged": true
+    }
+  ],
+  "excluded": [
+    "credentials",
+    "working history",
+    "runtime state",
+    "downloaded corpora",
+    "build products"
+  ]
+}

@@ -1,0 +1,13 @@
+# Resolved from ~/.omp/agent/config.yml each time. No model credentials here.
+jev_model = "jev-latest"
+minimum_confidence = 0.70
+minimum_probability = 0.65
+fallback_role = "default"
+
+[roles]
+smol = "Fast, small bounded tasks: repository exploration, finding files, answering straightforward questions, or a trivial localized edit."
+task = "Implement a well-specified, bounded feature or fix with clear scope and acceptance criteria."
+default = "General-purpose work, mixed tasks, ordinary development, or requests that do not clearly fit a specialist."
+plan = "Read-only architecture, design decisions, implementation plans, or acceptance criteria. The user wants a plan or analysis before implementation, not changes now."
+slow = "Difficult debugging, deep reasoning, complex analysis, cross-cutting changes, or substantial implementation with unresolved design questions."
+vision = "Tasks focused on inspecting images, screenshots, diagrams, or visual content."
